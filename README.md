@@ -1,8 +1,7 @@
 # GraphQL ![image](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-We'll use gqlgen to build a GraphQL servers without any fuss
+We'll use gqlgen to build a GraphQL starter servers
 
 See the document: [gqlgen - https://gqlgen.com](https://gqlgen.com)
-
 
 ## Quick start
 
