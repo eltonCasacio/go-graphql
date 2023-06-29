@@ -8,3 +8,38 @@ go run github.com/99designs/gqlgen generate
 sqlite3 data.db  => create database
 create table category (id string, name string, description string);
 create table courses (id string, name string, description string, category_id string);
+
+
+GRAPHQL
+mutation createCategory {
+  createCategory(input: {
+    name:"tech",
+    description:"curso go"
+  }){
+    id
+    name
+    description
+  }
+}
+
+mutation createCourse {
+  createCourse(input:{
+    name:"Go",
+    description:"curso graphql com go",
+    categoryId:"6b7e9fe8-f51c-4593-929b-7f51c4174895"
+  }){
+    id
+    name
+    description
+    category {
+      id
+    }
+  }
+}
+
+query categories {
+  categories {
+    id
+    name
+  }
+}
