@@ -1,2 +1,5 @@
-go run github.com/99designs/gqlgen init         =>  cria a estrutura inicial do graphql
-go run github.com/99designs/gqlgen generate     =>  recria schemas
+go run github.com/99designs/gqlgen init
+  cria a estrutura inicial do graphql - build a initial graphql struct
+
+go run github.com/99designs/gqlgen generate
+  gera schemas - generate schemas
