@@ -3,7 +3,7 @@ We'll use gqlgen to build a GraphQL starter servers
 
 See the document: [gqlgen - https://gqlgen.com](https://gqlgen.com)
 
-## Quick start
+## Quick start example 
 
 #### Initialise a new go module
 
@@ -27,13 +27,13 @@ It's all we need to start a simple graphql server by Go <br/>
 connect to http://localhost:8080/ for GraphQL playground
 
 
-## Run project:
+# Run this project:
 <ol>
-  <li>Clone this repository</li>
+  <li>clone this repository</li>
   <li>run <code>go mod tidy</code> to install dependency</li>
-  <li>Create database and tables</li>
+  <li>create database and tables</li>
   <li>run <code>go run cmd/server/server.go</code></li>
   <li>access <a href="http://localhost:8080"> http://localhost:8080 </a> and be happy</li>
 </ol>
     
-***You can see some used commands in command.txt file***
+***You can see some used commands in commands.txt file***
