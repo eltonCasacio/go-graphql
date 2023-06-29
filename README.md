@@ -32,7 +32,9 @@ connect to http://localhost:8080/ for GraphQL playground
 <ol>
   <li>Clone this repository</li>
   <li>run <code>go mod tidy</code> to install dependency</li>
+  <li>Create database and tables</li>
   <li>run <code>go run cmd/server/server.go</code></li>
+  <li>access <a href="http://localhost:8080"> http://localhost:8080 </a> and be happy</li>
 </ol>
     
-### You can see some used commands in command.txt file
+***You can see some used commands in command.txt file***
