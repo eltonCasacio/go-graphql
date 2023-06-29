@@ -8,15 +8,12 @@ See the document: [gqlgen - https://gqlgen.com](https://gqlgen.com)
 
 #### Initialise a new go module
 
-> `mkdir example`
-
-> `cd example`
-
-> `go mod init example`
+> `mkdir example`<br/>
+> `cd example`<br/>
+> `go mod init example`<br/>
 
 #### Add github.com/99designs/gqlgen to your project’s tools.go <br/>
-> `printf '// +build tools\npackage tools\nimport (_ "github.com/99designs/gqlgen"\n _ "github.com/99designs/gqlgen/graphql/introspection")' | gofmt > tools.go`
-
+> `printf '// +build tools\npackage tools\nimport (_ "github.com/99designs/gqlgen"\n _ "github.com/99designs/gqlgen/graphql/introspection")' | gofmt > tools.go`<br/>
 > `go mod tidy`
 
 #### Initialise gqlgen config and generate models
