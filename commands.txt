@@ -43,3 +43,8 @@ query categories {
     name
   }
 }
+
+
+GERANDO BUILD Golang
+
+GOOS=linux GOARCH=386 go build arquivo.go

@@ -1,4 +1,6 @@
-# GraphQL ![image](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+# GraphQL 
+![Badge](https://img.shields.io/static/v1?label=go&message=1.20&color=blue&style=for-the-badge&logo=Go)
+
 We'll use gqlgen to build a GraphQL starter servers
 
 See the document: [gqlgen - https://gqlgen.com](https://gqlgen.com)
@@ -37,3 +39,5 @@ connect to http://localhost:8080/ for GraphQL playground
 </ol>
     
 ***You can see some used commands in commands.txt file***
+
+![image](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
