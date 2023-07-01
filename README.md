@@ -41,3 +41,14 @@ connect to http://localhost:8080/ for GraphQL playground
 ***You can see some used commands in commands.txt file***
 
 ![image](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+
+# Run with Docker image
+
+On Terminal Run:
+<ol>
+  <li><code>docker pull eltoncasacio/gographql</code></li>
+  <li><code>docker run --rm -p 8080:8080 eltoncasacio/gographql</code></li>
+  <li>access <a href="http://localhost:8080"> http://localhost:8080 </a></li>
+</ol>
+
+***https://hub.docker.com/r/eltoncasacio/gographql***
